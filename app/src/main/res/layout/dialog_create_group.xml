@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <EditText
+        android:id="@+id/groupNameEditText"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:hint="Group Name"
+        android:textColorHint="#808080"
+        android:layout_marginTop="8dp" /> <!-- Add top margin/padding of 8dp -->
+
+    <EditText
+        android:id="@+id/groupDescriptionEditText"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:textColorHint="#808080"
+        android:layout_marginTop="8dp" /> <!-- Add top margin/padding of 8dp -->
+
+
+
+</LinearLayout>
